@@ -1,0 +1,8 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=917
+
+Glibc uses locale (or fdcc) files to define cultural conventions.  The files are usualy named 
+xx_ZZ where xx is the ISO language code and ZZ is the ISO country code.
+
+The highlighter has the following features:
+* highlights only valid keys with various LC_ sections
+* Shows bad <UNNNN> unicode as an error
